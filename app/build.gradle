@@ -53,6 +53,9 @@ dependencies {
     implementation 'androidx.navigation:navigation-fragment:2.3.5'
     implementation 'androidx.navigation:navigation-ui:2.3.5'
 
+    // Espresso Idling Resources
+    implementation 'androidx.test.espresso:espresso-idling-resource:3.4.0'
+
     // Unit tests
     testImplementation 'junit:junit:4.13.2'
 
@@ -62,6 +65,9 @@ dependencies {
     androidTestImplementation 'androidx.test:runner:1.4.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    // Espresso Intents — задание 2.6
+    // Espresso Intents
     androidTestImplementation 'androidx.test.espresso:espresso-intents:3.4.0'
+
+    // Espresso Contrib
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.4.0'
 }
